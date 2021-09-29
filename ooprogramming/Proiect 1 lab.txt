@@ -1,0 +1,26 @@
+Meniu:
+1. Benzina
+2. Motorina
+3. GPL( 3,21 lei/ L)
+Introduceti optiunea dorita: ___.
+------
+Submeniu Benzina:
+1. Benzina Standard 95 ( 5,94 lei/ L)
+2. Benzina Extra 99 ( 6,33 lei/ L)
+Introduceti optiunea dorita: ___.
+
+Submeniu Motorina:
+1. Motorina Standard ( 5,43 lei/ L)
+2. Motorina Euro Diesel 5 ( 5,71 lei/ L)
+Introduceti optiunea dorita: ___.
+------
+
+Introduceti cantitatea dorita( L): ___.
+
+Pretul va fi: x lei.
+
+1 meniu
+
+2 produs( nume, pret)
+
+3 sumarOperatiune

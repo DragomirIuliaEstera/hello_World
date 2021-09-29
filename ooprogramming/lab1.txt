@@ -1,0 +1,70 @@
+http://tpcg.io/
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class lab1 {
+
+     public static void main(String args[]){
+         //Scanner scan = new Scanner(System.in);
+         
+         //int nr1 = scan.nextInt();
+        // int nr2 = scan.nextInt();
+         
+        //  sumaProdus(nr1, nr2);
+        //  catRest(nr1, nr2);
+        // inmultireAleatoare(nr1, nr2);
+         meniu();
+     }
+     
+    //  public static void sumaProdus(int nr1, int nr2){
+    //      System.out.println("Suma este: "+ (nr1+nr2));
+    //      System.out.println("Produsul este: "+ (nr1*nr2));
+    //  }
+     
+    //  public static void catRest(int nr1, int nr2){
+    //      System.out.println("Catul este: "+ (nr1/nr2));
+    //      System.out.println("Restul este: "+ (nr1%nr2));
+    //  }
+     
+    //  public static void inmultireAleatoare(int nr1, int nr2){
+    //      Random rnd = new Random();
+    //      System.out.println("Primul numar inmultit aleator este: "+ nr1*rnd.nextInt(255));
+    //      System.out.println("Al doilea numar inmultit aleator este: "+ nr2*rnd.nextInt(255));
+    //  }
+    
+    public static void meniu(){
+        System.out.println("Optiuni:\n1. Paritate ultima cifra.\n2. Paritate prima cifra.\n3. Suma cifrelor.");
+        
+        Scanner sc = new Scanner(System.in);
+        int nr = sc.nextInt();
+        int opt = sc.nextInt();
+        
+        switch(opt)
+        {
+            case 1:
+                paritateUC(nr);
+                break;
+            case 2:
+                //paritatePC(nr);
+                break;
+            case 3:
+                //sumaCifre(nr);
+                break;
+            default:
+                System.out.println("Optiunea introdusa nu e valida.");
+                break;
+        }
+    }
+    
+    public static void paritateUC(int nr){
+        int uc = nr%10;
+        if(uc % 2 == 0){
+            System.out.println("Ultima cifra para.");
+        }
+        else{
+            System.out.println("Ultima cifra impara.");
+        }
+    }
+    
+}

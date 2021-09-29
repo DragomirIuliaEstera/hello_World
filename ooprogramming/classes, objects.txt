@@ -1,0 +1,10 @@
+Clasa- element fundamental cand proiectam.
+Obiect- instanta a clasei, ce are valori in campuri.
+clasa --instantiere--> obiect
+Incapsulare
+
+Numele clasei se scrie cu litera mare: StudentAdaptat
+Numele metodei se scrie cu litera mica: getValue(){}
+Campurile/Atributele se pot scrie cu _: _data
+Campurile le definim private, 
+ca sa nu le accesese altcineva.

@@ -1,0 +1,40 @@
+- : private 
++ : public
+# : protected
+  : implicit
+========
+public class Carte{
+
+	private ListaPagini _pagini = new ListaPagini();
+
+	public Carte( String titlu){
+		Pagina p = new Pagina();
+		p.addLine(titlu);
+
+		_pagini.add(p);
+	}
+	
+	public String toString(){
+
+	String res = "Cartea cu titlul: "+_pagini.getFirstPage();
+	res += ", are paginile: ";
+	res += _pagini.toString();
+
+	return res;
+	}
+}
+
+public class Pagina{
+	private ListaStringuri _liosta;
+
+	publioc Pagina(){
+		_liosta = new ListaStringuri();
+	}
+
+	publioc Pagina(){
+	_lista = new ListaStringuri();
+	}
+}
+======
+
+
